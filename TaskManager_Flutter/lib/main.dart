@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_manager/screens/homeScreen.dart';
+// import 'package:task_manager/screens/homeScreen.dart';
+import 'package:task_manager/screens/tasksScreen.dart';
 
 void main() {
   runApp(TaskManager());
@@ -14,7 +15,7 @@ class TaskManager extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: HomeScreen(),
+      home: TasksScreen(),
     );
   }
 }
