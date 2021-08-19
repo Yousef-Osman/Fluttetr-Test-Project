@@ -5,8 +5,7 @@ import 'package:task_manager/models/loginModel.dart';
 import 'package:task_manager/models/toDoTask.dart';
 
 class HttpService extends StatelessWidget {
-  final String baseUrl = 'http://10.100.28.207:6006/api/account/login';
-  // final String baseUrl = 'http://localhost:59872/api/tasks';
+  final String baseUrl = 'http://localhost:59872/api/tasks';
 
   @override
   Widget build(BuildContext context) {
