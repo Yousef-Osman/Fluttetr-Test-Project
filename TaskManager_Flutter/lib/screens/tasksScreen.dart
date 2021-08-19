@@ -44,7 +44,7 @@ class TasksScreen extends StatelessWidget {
                         subtitle: Padding(
                           padding: EdgeInsets.fromLTRB(0, 3, 0, 10),
                           child: Text(
-                            snapshot.data[index].isDone,
+                            snapshot.data[index].isDone.toString(),
                             style: TextStyle(color: Colors.grey[700],fontWeight: FontWeight.w400),
                           ),
                         ),

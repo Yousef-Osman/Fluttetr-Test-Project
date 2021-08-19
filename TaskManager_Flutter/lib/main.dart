@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_manager/screens/loginScreen.dart';
 // import 'package:task_manager/screens/homeScreen.dart';
 import 'package:task_manager/screens/tasksScreen.dart';
 
@@ -15,7 +16,8 @@ class TaskManager extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: TasksScreen(),
+      // home: TasksScreen(),
+      home: LoginScreen(),
     );
   }
 }
